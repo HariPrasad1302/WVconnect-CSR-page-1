@@ -1,0 +1,47 @@
+.hero {
+  /* Your existing background image properties */
+  background-image: url('/background6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Add a blur class for the blur effect */
+.blur {
+  filter: blur(5px);
+  filter: brightness(70%)
+
+   /* Adjust the blur intensity as needed */
+}
+
+
+  .overlay {
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .overlay p {
+    font-size: 1.5rem;
+  }
+
+  .exploreButton {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .exploreButton:hover {
+    background-color: #e63900;
+    transform: scale(1.05);
+  }
+  
+  /* Add more custom styles as needed */
+  

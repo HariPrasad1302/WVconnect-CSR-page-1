@@ -1,0 +1,70 @@
+src/styles/Navbar.module.css
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 25px; /* Adjust as needed for the desired spacing */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: white;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLinks li {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Mobile Navigation Drawer */
+  @media (max-width: 768px) {
+    .navbar {
+      top: 0;
+    }
+    
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      left: -100%; /* Hide off-screen */
+      width: 70%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 2rem;
+      transition: left 0.3s;
+    }
+  
+    .navLinks.active {
+      left: 0; /* Slide in the drawer */
+    }
+  
+    .navLinks li {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
