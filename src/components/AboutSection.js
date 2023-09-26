@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <section className="py-6 md:py-12 bg-gray-100 px-4 md:px-12">
+    <section className="py-6 md:py-12 bg-gray-300 px-4 md:px-12">
       <div className="container mx-auto rounded-lg overflow-hidden p-6 bg-white shadow-lg">
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="md:flex-1 p-6 md:p-4 mb-4 md:mb-0 flex flex-col text-center items-center">

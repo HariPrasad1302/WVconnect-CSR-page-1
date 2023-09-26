@@ -2,10 +2,10 @@ function ContactInfo() {
 
     return (
         <div>
-           <section id="ContactUS" className="text-gray-600 bg-black body-font p-12 py-2">
+           <section id="Contactus" className="text-gray-600 bg-black body-font p-12 py-2">
                 <div className="container px-5 py-24 mx-auto flex flex-wrap">
                     <div className="lg:w-1/2 w-full mb-10 lg:mb-0">
-                        <img width={500} height={500} src="blog_list3.jpg" alt="" className="object-cover rounded-2xl" />
+                        <img width={500} height={500} src="blog_list3.jpg" alt="" className="ml-16 object-cover rounded-2xl" />
                     </div>
                     <div className="flex flex-col flex-wrap text-center sm:text-left lg:py-6 -mb-10 lg:w-1/2 lg:pl-12">    
                       <div class="flex  flex-col mb-10 lg:items-start items-center">

@@ -18,29 +18,32 @@ const HeroSection = () => {
   const slideData = [
     {
       id: 0,
-      img: "/donate1.jpg",
-      title: "Trending Item",
-      mainTitle: "WOMEN'S LATEST FASHION SALE",
-      price: "$20",
+      img: "/donationss.png",
+      title: "WV Connect 2024",
+      mainTitle: "WEDDING WITH HOPE",
+      price: "Renewing Bonds Igniting Hearts",
+      buttonText: "Learn More",
     },
     {
       id: 1,
-      img: "/donate2.png",
-      title: "Trending Accessories",
-      mainTitle: "MODERN SUNGLASSES",
-      price: "$15",
+      img: "/donate1.jpg",
+      title: "101 Weddings With Hope",
+      mainTitle: "Join Us & Contribute",
+      price: "A Journey of Love, Unity, and Change",
+      buttonText: "Donate Now",
     },
     {
       id: 2,
-      img: "/donate3.png",
-      title: "Sale Offer",
-      mainTitle: "NEW FASHION SUMMER SALE",
-      price: "$30",
+      img: "/donationss1.png",
+      title: "Featured Gifts",
+      mainTitle: "Gifts from the Heart",
+      price: "Straight from Our Pure Heart",
+      buttonText: "Donate Now",
     },
   ];
 
   return (
-    <div className="relative">
+    <div className="relative bg-white">
       <div className="mb-10 justify-center items-center relative z-0">
         <Slider {...settings}>
           {slideData.map((item) => (
@@ -50,6 +53,7 @@ const HeroSection = () => {
               title={item.title}
               mainTitle={item.mainTitle}
               price={item.price}
+              buttonText={item.buttonText}
             />
           ))}
         </Slider>

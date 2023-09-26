@@ -19,6 +19,7 @@ import Review2 from '@/components/review2'
 import Footer from '@/components/Footer'
 import FAQComponent from '@/components/FAQ'
 import ContactInfo from '@/components/ContactInfo'
+import Cards from '@/components/card'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -26,7 +27,6 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-    <Navbar/>
     <HeroSection /> 
     <AboutSection/> 
     <Mission/>
@@ -43,6 +43,7 @@ export default function Home() {
    <Pledge/>
    <Review1/>
    <Review2/>
+   <Cards/>
    <FAQComponent/>
    <ContactInfo/>
    <Footer/>

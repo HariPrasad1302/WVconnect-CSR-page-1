@@ -12,9 +12,9 @@ const Mission = () => {
                     </p>
                     <div className="mt-8 flex-col md:flex-row flex justify-center space-x-8">
                         <div className="max-w">
-                            <img src="/Fostering .png" alt="Image 1" className="w-full h-auto" />
-                            <p className="font-bold text-lg mt-2">Fostering Companionship</p>
-                            <p className="text-sm">Guiding individuals towards rediscovering love.</p>
+                            <img src="/growth.png" alt="Image 2" className="w-full h-auto" />
+                            <p className="font-bold text-lg mt-2">Celebrating Resilience</p>
+                            <p className="text-sm">Applauding souls stepping into new life chapters.</p>
                         </div>
                         <div className="max-w">
                             <img src="/growth.png" alt="Image 2" className="w-full h-auto" />

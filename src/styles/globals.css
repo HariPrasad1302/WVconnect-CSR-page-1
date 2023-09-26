@@ -40,4 +40,37 @@ html, body {
   .navbar__link:hover::after {
     scale: 1;
   }
+  /* custom-slider-dots.css */
+/* Style the slider dots */
+/* custom-slider-dots.css */
+/* Style the slider dots */
+.slick-dots {
+  bottom: 20px !important; /* Adjust the position as needed */
+  background: grey !important; /* Change the background color to grey */
 }
+
+/* Style the individual dot */
+.slick-dots li button:before {
+  font-size: 10px !important; /* Adjust the dot size as needed */
+  color: grey !important; /* Change the dot color to grey */
+  opacity: 1 !important; /* Ensure the dot is fully visible */
+}
+
+/* Style the active dot */
+.slick-dots li.slick-active button:before {
+  color: white !important; /* Change the active dot color */
+}
+
+.custom-dots li button {
+  font-size: 30px; /* Adjust the font size to make the dots bigger */
+}
+
+
+
+
+
+
+
+
+}
+

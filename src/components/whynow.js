@@ -1,5 +1,12 @@
 import React from 'react';
 
+const ContactUS = () => {
+    const ContactUSheading = document.getElementById('Contactus');
+    if (ContactUSheading) {
+        ContactUSheading.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
 const JoinUs = () => {
     return (
 
@@ -29,7 +36,7 @@ const JoinUs = () => {
                         Together, we aim for a world filled with warmth and love.
                     </p>
                     <div className="flex justify-center items-center mt-4">
-                        <button className="mt-4 bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 focus:outline-none ">
+                        <button onClick={ContactUS} className="mt-4 bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 focus:outline-none ">
                             Donate Now
                         </button>
                     </div>

@@ -20,8 +20,8 @@ const Navbar = () => {
     };
   }, []);
 
-  const navbarClass = `bg-pink-300 ${
-    isSticky ? "sticky top-0 z-50 bg-pink-300 shadow-md" : ""
+  const navbarClass = `bg-blue-500 ${
+    isSticky ? "sticky top-0 z-50 bg-blue-500 shadow-md" : ""
   }`;
 
   return (

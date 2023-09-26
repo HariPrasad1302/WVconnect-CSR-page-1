@@ -2,9 +2,9 @@ import React from 'react';
 
 const CommitmentBox = () => {
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg">
+    <div className="bg-white p-8 rounded-lg shadow-lg p-12 py-12">
       <h2 className="text-center text-3xl font-semibold mb-6">COMMITMENT</h2>
-      <div className="md:flex md:items-center md:space-x-8">
+      <div className="md:flex md:items-center md:space-x-8 p-12 py-12">
         <div className="bg-red-500 text-white p-4 rounded-lg flex items-center space-x-4">
           <div className="bg-white w-10 h-10 flex items-center justify-center rounded-full">
             {/* Placeholder email icon */}

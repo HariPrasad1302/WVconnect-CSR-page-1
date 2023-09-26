@@ -1,5 +1,11 @@
 import React from 'react';
 
+const ContactUS = () => {
+  const ContactUSheading = document.getElementById('Contactus');
+  if (ContactUSheading) {
+      ContactUSheading.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 
 const giftData = [
@@ -84,7 +90,7 @@ const Gifts = () => {
 
   return (
 
-    <div id="Gifts" className="bg-gray-100 py-4 md:py-8">
+    <div id="Gifts" className="bg-gray-100 py-4 md:py-8 p-12 py-12">
 
       <h1 className="text-3xl text-center md:text-5xl font-bold text-left italic">Gifts from the Heart</h1>
 
@@ -100,7 +106,7 @@ const Gifts = () => {
 
         <h2 className="text-2xl md:text-3xl text-center my-4 font-bold relative top-6">Featured Gifts</h2>
 
-        <div className="bg-white p-4 md:p-6 relative rounded-lg shadow-md grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 relative top-8">
+        <div className="bg-white  p-4 md:p-6 relative rounded-lg shadow-md grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 relative top-8">
 
           {giftData.map((gift) => (
 
@@ -154,7 +160,7 @@ const Gifts = () => {
 
           </div>
 
-          <button className="bg-black text-white px-4 py-4 rounded-full mt-8 mb-8 sm:text-center">
+          <button onClick={ContactUS} className="bg-black text-white px-4 py-4 rounded-full mt-8 mb-8 sm:text-center">
 
             Donate now
 

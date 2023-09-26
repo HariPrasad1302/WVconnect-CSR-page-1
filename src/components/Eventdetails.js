@@ -4,14 +4,14 @@ const EventDetails = () => {
   return (
     <div id="EventDetails" className="py-6 md:py-12 bg-gray-100 px-4 md:px-12">
       <div className="py-6 md:py-12 px-4 md:px-12">
-        <h1 className="text-3xl md:text-5xl font-bold italic">101 Weddings With Hope</h1>
-        <h1 className="mt-4 md:mt-6 text-3xl md:text-5xl font-bold text-yellow-500">Venue Details</h1>
-        <p className="mt-2 md:mt-4 text-base md:text-lg">
+        <h1 className="text-3xl text-center md:text-5xl font-bold italic">101 Weddings With Hope</h1>
+        <h1 className="mt-4 md:mt-6 text-3xl text-center md:text-5xl font-bold text-yellow-500">Venue Details</h1>
+        <p className="mt-2 md:mt-4 text-center text-base md:text-lg">
           <b>Date:</b> April 6th, 2024 | <b>Time:</b> 9:00 AM | <b>Venue:</b> Ananta Spa & Resort, Jaipur, Rajasthan
         </p>
       </div>
 
-      <div className="mt-8 md:mt-12 py-6 md:py-12 px-4 md:px-12">
+      <div className=" ">
         <div className="text-2xl md:text-4xl font-bold text-center">The Grandeur Awaits</div>
         <div className="mt-4 md:flex md:flex-wrap">
           <div className="w-full sm:w-1/2 md:w-1/3 p-4">
